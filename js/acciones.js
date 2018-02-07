@@ -19,10 +19,10 @@ $(document).ready(function(){
 		audio.preloadFX('Sol','audio/SOL-copia.mp3', function(){}, function(msg){alert('Error ' + msg);});
 		audio.preloadFX('La','audio/LA-copia.mp3', function(){}, function(msg){alert('Error ' + msg);});
 		audio.preloadFX('Si','audio/SI-copia.mp3', function(){}, function(msg){alert('Error ' + msg);});
-		$('.nota').bind('touchstart', function(){//bind escucha cualquier evento, 'touchstart'para donde den tap en la nota
+		$('.nota').bind('click', function(){//bind escucha cualquier evento, 'touchstart'para donde den tap en la nota
 			$(this).addClass('tocada');//funcionalidad css que agrega clase
 			audio.play($(this).attr('id'));//play()reproducir la nota, $(this).attr('id') el atributo de quien lo invoco y lo reproduce	
-			}).bind('touchend',function(){//cierra nota .bind
+			}).bind('click',function(){//cierra nota .bind
 					$(this).removeClass('tocada');
 				});//bind
 					
