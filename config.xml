@@ -6,10 +6,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name> Shakespeare Pro :v </name>
+    <name> Shakespeare Pro </name>
 
     <description>
-        By G&J ©
+        Aplicacion con plugins de sonidos
     </description>
 	
   <author href="https://build.phonegap.com" email="aguilarmjesusrj7@gmail.com">
