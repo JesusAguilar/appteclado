@@ -25,11 +25,6 @@ $(document).ready(function(){
 			}).bind('touchend',function(){//cierra nota .bind
 					$(this).removeClass('tocada');
 				});//bind
-				$('.nota1').bind('touchstart', function(){
-					$(this).addClass('tocada');
-					audio.play($(this).attr('id'));
-				}).bind('touchend',function(){
-					$(this).removeClass('tocada');
-				});		
+					
 	},false); //deviceready
 });//ready
